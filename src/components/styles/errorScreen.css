@@ -1,0 +1,53 @@
+.card__errorScreen {
+    color: #f6f8f8;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 80px;
+    width: 400px;
+    background-color: #393c3c;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: -4rem;
+    margin-bottom: 5rem;
+    border-radius: 10px;
+
+}
+
+@media (max-width: 380px) {
+    .card__errorScreen {
+
+        /* align-items: center;
+        justify-content: space-between; */
+        margin: 0 auto;
+        height: 60px;
+        width: 300px;
+
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        font-size: 17px;
+        top: -8rem;
+
+
+    }
+}
+
+@media (min-width: 768px) {
+    .card__errorScreen {
+
+        /* align-items: center;
+        justify-content: space-between; */
+        margin: 0 auto;
+        height: 60px;
+        width: 300px;
+
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+        font-size: 17px;
+
+
+    }
+}
